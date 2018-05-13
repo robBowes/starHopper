@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Hopper '86</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- <div id="app"></div> -->
+    <audio src="sounds/Retro - Game.mp3" id="explosions"></audio>
+    <div class="grid">
+        <h1>Star  Hopper  '86</h1>
+        <div class="score_box container">Score: <span class="score">0</span></div>
+        <div class="power_box container">Power: <span class="power">0</span></div>
+        <div class="popup container" style="display: none">
+            <span class="popup_text"></span><button></button>
+        </div>
+        <canvas id="app" width="500" height="600" class="container"></canvas>
+    </div>
+    <script src="js/sprites.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
